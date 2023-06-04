@@ -7,7 +7,7 @@ This repository contains the lab and problem sets for Python that I've completed
 
 ---
 
-Most of the programs were written entirely by me based on the lab/problem set prompt. Where CS50 has included pre-existing code, my contributions to the code are commented with **LauraPG**, and outlined under implementation details below. I've listed the assignments in reverse order of completion.
+Most of the programs were written entirely by me based on the lab/problem set prompt. Where CS50 has included pre-existing code (in World Cup and DNA), my contributions to the code are commented with **LauraPG**, and outlined under implementation details below. I've listed the assignments in reverse order of completion.
 
 ---
 
@@ -15,16 +15,26 @@ Most of the programs were written entirely by me based on the lab/problem set pr
 *Simulates a sports tournament.*
 <br><br>
 Implementation details for my contribution to code:     
-- reads team data from csv file provided in command line into program's memory as dictionaries and appends to list
+- reads team data from csv file provided in command line into memory as dictionaries and appends to list, with input validation
 - simulates a tournament, repeatedly simulating rounds until left with one team.
 
 
-**Problem Set 5: Speller**   
-*Implements a dictionary's functionality. Spell-checks a file, using hash table, after loading a dictionary of words from disk into memory (implemented in dictionary.c). Prototypes for functions defined in dictionary.h. Texts for spell-checking in /texts.*
+**CS50x Problem Set 6: DNA**<br>   
+*Identifies a person based on their DNA.*
 <br><br>
-Implementation details for my contribution to code (dictionary.c):   
-- implements, in order, load, hash, size, check, and unload as efficiently as possible using a hash table in such a way that TIME IN load, TIME IN check, TIME IN size, and TIME IN unload are all minimized.
-- uses hash function written by me.
+Implementation details for my contribution to code:   
+- requires as its first command-line argument the name of a CSV file containing the STR counts for a list of individuals and as its second command-line argument the name of a text file containing the DNA sequence to identify, with input validation
+- opens csv file and DNA sequence and reads contents into memory
+- if the DNA STR counts match exactly with any of the individuals in the CSV file, prints out the name of the matching individual.
+
+
+**CS50x Problem Set 6: Cash**<br>
+*Prompts the user for the number of cents that a customer is owed and then prints the smallest number of coins with which that change can be made.*
+<br><br>
+I also wrote it in C as part of CS50x Problem Set 1 (see Harvard-CS50-labs-problemsets-C repository).
+
+
+**CS50x 
 
 
 ---
