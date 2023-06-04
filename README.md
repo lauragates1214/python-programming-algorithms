@@ -1,4 +1,4 @@
-**Labs and Problem Sets for C**<br>
+**Labs and Problem Sets for Python**<br>
 *from Harvardx's Professional Certificate in Computer Science for Python Programming<br>
 CS50x Introduction to Computer Science & CS50p Introduction to Python Programming*
 <br><br>
@@ -7,22 +7,17 @@ This repository contains the lab and problem sets for Python that I've completed
 
 ---
 
-Most of the programs were written entirely by me based on the lab/problem set prompt. My contribution to the code, where CS50 has included pre-existing code, is commented with **LauraPG**, and outlined under implementation details below. I've listed the assignments in reverse order of completion.
+Most of the programs were written entirely by me based on the lab/problem set prompt. Where CS50 has included pre-existing code, my contributions to the code are commented with **LauraPG**, and outlined under implementation details below. I've listed the assignments in reverse order of completion.
 
 ---
 
-**Topic 5: Data Structures**<br>
-*abstract data types // queues, stacks // linked lists // trees, binary search trees // hash tables // tries*
-<br><br><br>
-**Lab 5: Inheritance**<br>
-*Simulates genetic inheritance of blood type.*
+**CS50x Lab 6: World Cup**<br>
+*Simulates a sports tournament.*
 <br><br>
 Implementation details for my contribution to code:     
-- allocates memory for a new person via malloc
-- sets parent pointers of new person
-- assigns both alleles for new person by randomly choosing one allele from each parent, or if reaches final generation sets parent pointers to NULL and generates each allele randomly
-- returns a pointer for the person that was allocated
-- frees memory for the person, then recursively frees memory for all their ancestors.<br><br>
+- reads team data from csv file provided in command line into program's memory as dictionaries and appends to list
+- simulates a tournament, repeatedly simulating rounds until left with one team.
+
 
 **Problem Set 5: Speller**   
 *Implements a dictionary's functionality. Spell-checks a file, using hash table, after loading a dictionary of words from disk into memory (implemented in dictionary.c). Prototypes for functions defined in dictionary.h. Texts for spell-checking in /texts.*
