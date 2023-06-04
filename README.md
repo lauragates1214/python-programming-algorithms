@@ -33,22 +33,11 @@ Implementation details for my contribution to code:
 I also wrote Credit in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
 <br><br>
 
-**CS50x Problem Set 6: Cash**<br>
-*Prompts the user for the number of cents that a customer is owed and then prints the smallest number of coins with which that change can be made.*<br>
-I also wrote Cash in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
-<br><br>
+**CS50x Problem Set 6: Readability**<br>
+*Calculates the approximate grade reading level for a text using the Coleman-Liau index.*<br>
+I also wrote Readability in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
 
-**CS50x Problem Set 6: Mario More**<br>
-*Prints a full pyramid, with empty column in middle, using # based on user's integer input, with input validation.*<br>
-I also wrote Mario More in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
-<br><br>
-
-**CS50x Problem Set 6: Mario Less**  
-*Prints a half pyramid using # based on user's integer input, with input validation.*<br>
-I also wrote Mario Less in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
-<br><br>
-
-**CS50P Problem Set 3: Felipe's Taqueria**
+**CS50P Problem Set 3: Felipe's Taqueria**<br>
 *Enables a user to place an order, validates inputs against a menu dictionary, and displays the total cost of all items inputted thus far, until the user inputs control-d.*
 <br><br>
 
@@ -63,14 +52,5 @@ I also wrote Mario Less in C as part of CS50x Problem Set 1 (see repository Harv
 **CS50P Problem Set 2: Vanity Plates**<br>
 *Validates a vanity plate entered by the user against four Massachusettes vanity plate requirements.*
 <br><br>
-
-**CS50P Problem Set 2: Just setting up my twttr**<br>
-*Prompts the user for a text input then returns it stripped of all vowels.*
-<br><br>
-
-**CS50P Problem Set 1: Meal Time**<br>
-*Prompts the user for a time of day, supporting both 12-hour and 24-hour inputs via a.m./p.m. conversion, and returns what meal time it is.*
-ion returns true if every remaining candidate has same number of votes, otherwise false
-
 
 
