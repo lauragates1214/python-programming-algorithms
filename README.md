@@ -1,13 +1,13 @@
-**Labs and Problem Sets for Python**<br>
+**Lab and Problem Sets for Python**<br>
 *from Harvardx's Professional Certificate in Computer Science for Python Programming<br>
-CS50x Introduction to Computer Science & CS50p Introduction to Python Programming*
+CS50x Introduction to Computer Science & CS50P Introduction to Python Programming*
 <br><br>
-This repository contains the lab and problem sets for Python that I've completed as part of my professional certificate program through Harvardx.
-<br><br><br>
+This repository contains the lab and a selection of problem sets for Python that I've completed as part of my professional certificate program through Harvardx.
+<br><br>
 
 ---
 
-Most of the programs were written entirely by me based on the lab/problem set prompt. Where CS50 has included pre-existing code (in World Cup and DNA), my contributions to the code are commented with **LauraPG**, and outlined under implementation details below. I've listed the assignments in reverse order of completion.
+Most of the programs were written fully by me based on the lab/problem set prompt. Where CS50 has included pre-existing code (in World Cup and DNA), my contributions to the code are commented with **LauraPG**, and outlined under implementation details below. I've listed the assignments in reverse order of completion.
 
 ---
 
@@ -17,9 +17,9 @@ Most of the programs were written entirely by me based on the lab/problem set pr
 Implementation details for my contribution to code:     
 - reads team data from csv file provided in command line into memory as dictionaries and appends to list, with input validation
 - simulates a tournament, repeatedly simulating rounds until left with one team.
-<br>
+<br><br>
 
-**CS50x Problem Set 6: DNA**<br>   
+**CS50x Problem Set 6: DNA**<br>
 *Identifies a person based on their DNA.*
 <br><br>
 Implementation details for my contribution to code:   
@@ -28,170 +28,49 @@ Implementation details for my contribution to code:
 - if the DNA STR counts match exactly with any of the individuals in the CSV file, prints out the name of the matching individual.
 <br>
 
-The four programs in CS50x Problem Set 6 below I also wrote in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
 **CS50x Problem Set 6: Credit**<br>
-*Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*
-<br>
+*Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*<br>
+I also wrote Credit in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
+<br><br>
 
 **CS50x Problem Set 6: Cash**<br>
-*Prompts the user for the number of cents that a customer is owed and then prints the smallest number of coins with which that change can be made.*
-<br>
+*Prompts the user for the number of cents that a customer is owed and then prints the smallest number of coins with which that change can be made.*<br>
+I also wrote Cash in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
+<br><br>
 
 **CS50x Problem Set 6: Mario More**<br>
-*Prints a full pyramid, with empty column in middle, using # based on user's integer input, with input validation.*
-<br>
+*Prints a full pyramid, with empty column in middle, using # based on user's integer input, with input validation.*<br>
+I also wrote Mario More in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
+<br><br>
 
 **CS50x Problem Set 6: Mario Less**  
-*Prints a half pyramid using # based on user's integer input, with input validation.*
-
-
-
-
-
----
-
-
-**Topic 4: Memory**<br>
-*pointers // segmentation faults // dynamic memory allocation // stack, heap // buffer overflow // file I/O // images*
-<br><br><br>
-**Lab 4: Volume**<br>
-*Modifies the volume of an audio file, where INPUT.wav is the name of an original audio file and OUTPUT.wav is the name of an audio file with a volume that has been scaled by the given factor (e.g., 2.0).*
-<br><br>
-Implementation details for my contribution to code:   
-- reads header from input file and writes that header to output file
-- reads rest of data from WAV file, one 16-bit (2-byte) sample at a time
-- multiplies each sample by the factor and write the new sample to output file.<br><br>   
-   
-
-**Problem Set 4a: Filter**<br>
-*Allows user to apply grayscale, sepia, reflection, or blur filters to their images.*
-<br><br>
-Implementation details for my contribution to code (helpers.c):
-- wrote functions to allow users to apply the above filters to an existing image.<br><br>  
-
-
-**Problem Set 4b: Recover**<br>
-*Iterates over a forensic image of a memory card, looking for JPEG signatures and recovering the images*
-<br><br>
-Implementation details for my contribution to code:
-- accepts one command-line argument, the name of the forensic image of memory card from which to recover JPEGs, with input validation checks and error handling
-- iterates over the image looking for JPEG signatures
-- recovers the images, generating JPEG files
-- uses malloc to dynamically allocate memory for output filenames, then frees memory allocation.
-<br><br>   
-
----
-
-**Topic 3: Algorithms**<br>
-*searching: linear search, binary search // sorting: bubble sort, selection sort, merge sort // asymptotic notation: <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi>O</mi>
-</math>, <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi mathvariant="normal">&#x3A9;</mi>
-</math>, <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi mathvariant="normal">&#x398;</mi>
-</math> // recursion*
-<br><br><br>
-**Problem Set 3a: Plurality**<br>
-*Simulates a plurality vote election*
-<br><br>
-Implementation details for my contribution to code:
-- in vote function, checks for name match in candidate array
-- updates matching candidates' vote tallies
-- prints name of winner.   
-<br>
-
-**Problem Set 3b: Runoff**<br>
-*Simulates a runoff election*
-<br><br>
-Implementation details for my contribution to code: 
-- vote function identifying matching candidate names and compiles rank preferences
-- tabulate function updates votes at each stage in the runoff
-- print_winner function prints candidate with more than half the votes at any stage in the election
-- find_min function returns minimum vote total for any candidate still in the election
-- is_tie function returns true if every remaining candidate has same number of votes, otherwise false
-- eliminate function eliminates candidates with smallest number of votes at any stage in the election.
+*Prints a half pyramid using # based on user's integer input, with input validation.*<br>
+I also wrote Mario Less in C as part of CS50x Problem Set 1 (see repository Harvard-CS50-labs-problemsets-C).
 <br><br>
 
----
-
-**Topic 2: Arrays**<br>
-*preprocessing // compiling // assembling // linking // debugging // arrays // strings // command-line arguments // cryptography*
-<br><br><br>
-**Lab 2: Scrabble**<br>
-*Determines which of two Scrabble words is worth more*
-<br><br>
-Implementation details for my contribution to code:
-- computes scores for words entered by the user for players 1 and 2
-- prints winning player, or tie.
+**CS50P Problem Set 3: Felipe's Taqueria**
+*Enables a user to place an order, validates inputs against a menu dictionary, and displays the total cost of all items inputted thus far, until the user inputs control-d.*
 <br><br>
 
-**Problem Set 2a: Readability**<br>
-*Calculates the approximate grade reading level for a text using the Coleman-Liau index*
-<br><br>
-Implementation details (fully written by me, no pre-filled CS50 code):
-- prompts user for a string of text
-- counts number of letters, words and sentences in the text
-- prints relevant grade reading level.
+**CS50P Problem Set 3: Outdated**<br>
+*Prompts the user for a date, Anno Domini, in MM-DD-YYYY order, formatted like 9/8/1636 or September 8, 1636, with validation checks. It then outputs that same date in YYYY-MM-DD format.*
 <br><br>
 
-**Problem Set 2b: Bulbs**<br>
-*Converts user input message from text to binary using emoji art representing lightbulbs in on or off position*
-<br><br>
-Implementation details for my contribution to code (wrote main function):
-- converts text into decimal numbers using ascii
-- converts decimal numbers into equivalent binary numbers
-- creates then reverses binary array to print emoji light/dark lightbulbs.
+**CS50P Problem Set 3: Grocery List**<br>
+*Prompts the user for grocery list items, one per line, until the user inputs control-d. It then outputs the grocery list in all uppercase, sorted alphabetically by item, prefixing each line with the number of times the user inputted that item.*
 <br><br>
 
-**Problem Set 2c: Caesar**<br>
-*Encrypts messages using Caesar's cipher <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <msub>
-    <mi>c</mi>
-    <mi>i</mi>
-  </msub>
-  <mo>=</mo>
-  <mo stretchy="false">(</mo>
-  <msub>
-    <mi>p</mi>
-    <mi>i</mi>
-  </msub>
-  <mo>+</mo>
-  <mi>k</mi>
-  <mo stretchy="false">)</mo>
-  <mi mathvariant="normal">%</mi>
-  <mn>26</mn>
-</math>*
-<br><br>
-Implementation details (fully written by me, no pre-filled CS50 code):
-- accepts command line argument for cipher key, with input validation and error checking
-- prompts user for string of plaintext, uses key to encrypt it preserving case, prints ciphertext.
+**CS50P Problem Set 2: Vanity Plates**<br>
+*Validates a vanity plate entered by the user against four Massachusettes vanity plate requirements.*
 <br><br>
 
-**Problem Set 2d: Substitution**<br>
-*Encrypts messages using a substitution cipher*
-<br><br>
-Implementation details (fully written by me, no pre-filled CS50 code apart from library inclusions and main function parameters):
-- accepts command line argument for cipher key, with input validation and error checking
-- prompts user for string of plaintext, uses key to encrypt it preserving case, prints ciphertext.
+**CS50P Problem Set 2: Just setting up my twttr**<br>
+*Prompts the user for a text input then returns it stripped of all vowels.*
 <br><br>
 
----
-
-**Topic 1: C**  
-**Lab 1: Population Growth**  
-Calculates number of years required for a population of llamas to grow from a start size to and end size.   
-Specs:   
-- Prompts user for a starting and an ending population size, with input validation
-- Calculates and prints the number of years required for the population to reach that size
-
-**Problem Set 1**   
-*Mario less*  
-Prints a half pyramid using # based on user's integer input, with input validation.
-   
-*Mario more*  
-Prints a full pyramid, with empty column in middle, using # based on user's integer input, with input validation.
-
-*
+**CS50P Problem Set 1: Meal Time**<br>
+*Prompts the user for a time of day, supporting both 12-hour and 24-hour inputs via a.m./p.m. conversion, and returns what meal time it is.*
+ion returns true if every remaining candidate has same number of votes, otherwise false
 
 
 
