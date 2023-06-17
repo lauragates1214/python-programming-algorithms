@@ -25,6 +25,7 @@ def main():
         return
 
     # LauraPG: Read database file into a variable
+    csvFilename = sys.argv[1]
     txtFilename = sys.argv[2]
 
     # LauraPG: Read DNA sequence file into a variable
