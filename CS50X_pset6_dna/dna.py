@@ -28,7 +28,7 @@ def main():
     csvFilename = sys.argv[1]
     txtFilename = sys.argv[2]
 
-    # LauraPG: Read DNA sequence file into a variable
+    # LauraPG: open sequence file
     txtReader = open(txtFilename, 'r')
 
     # LauraPG: assign variable to contents of file
