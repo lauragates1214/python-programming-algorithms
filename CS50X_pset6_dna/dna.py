@@ -24,7 +24,7 @@ def main():
         print('Please enter the correct number of files')
         return
 
-    # LauraPG: Read database file into a variable
+    # LauraPG: Read database & sequence files into variables
     csvFilename = sys.argv[1]
     txtFilename = sys.argv[2]
 
