@@ -28,7 +28,7 @@ def main():
     csvFilename = sys.argv[1]
     txtFilename = sys.argv[2]
 
-    # LauraPG: open sequence file
+    # LauraPG: open sequences file
     txtReader = open(txtFilename, 'r')
 
     # LauraPG: assign variable to contents of file
