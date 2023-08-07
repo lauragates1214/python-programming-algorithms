@@ -1,8 +1,8 @@
-**Lab and Problem Sets for Python**<br>
+**Labs and Problem Sets for Python**<br>
 *from Harvardx's Professional Certificate in Computer Science for Python Programming<br>
 CS50x Introduction to Computer Science & CS50P Introduction to Python Programming*
 <br><br>
-This repository contains the lab and a selection of problem sets for Python that I've completed as part of my professional certificate program through Harvardx.
+This repository contains a selection of labs and problem sets for Python that I've completed as part of my professional certificate program through Harvardx.
 <br><br>
 
 ---
