@@ -29,7 +29,8 @@ Implementation details for my contribution to code:
 <br><br>
 
 **CS50x SQL Practice Problem: Hall of Prophecy**<br>
-*Refactors a SQL database and uses Python to load new SQL tables*
+*Refactors a SQL database to avoid redundancies, and uses Python to load new SQL tables.*
+My refactored database and schema are roster.db and schema.sql. Original database and schema roster-orig.db and schema-orig.sql.
 <br><br>
 
 **CS50x Problem Set 6: Credit**<br>
