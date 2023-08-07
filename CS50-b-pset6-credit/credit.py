@@ -9,8 +9,8 @@
     then uses Luhn's algorithm to validate the card number as Visa, MasterCard,
     American Express or invalid.
 
-    I also wrote it in C as part of CS50x Problem Set 1
-    (see repository for C labs and problem sets from Harvard CS50).
+    I also wrote Credit in C (see repository for C labs and problem sets from 
+    Harvard CS50).
 
     Code fully written by me; no pre-filled CS50 code.
 
