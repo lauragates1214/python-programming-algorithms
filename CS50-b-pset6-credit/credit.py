@@ -10,7 +10,7 @@
     American Express or invalid.
 
     I also wrote it in C as part of CS50x Problem Set 1
-    (see Harvard-CS50-labs-problemsets-C repository).
+    (see repository for C labs and problem sets from Harvard CS50).
 
     Code fully written by me; no pre-filled CS50 code.
 
