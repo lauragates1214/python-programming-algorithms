@@ -26,7 +26,11 @@ Implementation details for my contribution to code:
 - requires as its first command-line argument the name of a CSV file containing the STR counts for a list of individuals and as its second command-line argument the name of a text file containing the DNA sequence to identify, with input validation
 - opens csv file and DNA sequence and reads contents into memory
 - if the DNA STR counts match exactly with any of the individuals in the CSV file, prints out the name of the matching individual.
-<br>
+<br><br>
+
+**CS50x SQL Practice Problem: Hall of Prophecy**<br>
+*Refactors a SQL database and uses Python to load new SQL tables*
+<br><br>
 
 **CS50x Problem Set 6: Credit**<br>
 *Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*<br>
