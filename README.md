@@ -35,12 +35,12 @@ My refactored database and schema are roster.db and schema.sql. Original databas
 
 **CS50x Problem Set 6: Credit**<br>
 *Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*<br>
-I also wrote Credit in C as part of CS50x Problem Set 1 (see repository for C labs and problem sets from Harvard CS50).
+I also wrote Credit in C (see repository for C labs and problem sets from Harvard CS50).
 <br><br>
 
 **CS50x Problem Set 6: Readability**<br>
 *Calculates the approximate grade reading level for a text using the Coleman-Liau index.*<br>
-I also wrote Readability in C as part of CS50x Problem Set 1 (see repository for C labs and problem sets from Harvard CS50).
+I also wrote Readability in C (see repository for C labs and problem sets from Harvard CS50).
 <br><br>
 
 **CS50P Problem Set 3: Grocery List**<br>
