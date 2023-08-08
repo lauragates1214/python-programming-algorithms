@@ -1,4 +1,4 @@
-**Labs and Problem Sets for Python**<br>
+**Selection of Python programs written for labs and problem sets**<br>
 *from Harvardx's Professional Certificate in Computer Science for Python Programming<br>
 CS50x Introduction to Computer Science & CS50P Introduction to Python Programming*
 <br><br>
