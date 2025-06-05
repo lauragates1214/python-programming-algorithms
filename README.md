@@ -1,6 +1,6 @@
 # Python Programming & Data Analysis
 
-Python solutions covering algorithms, data processing, and computational problem-solving. Completed through Harvard's CS50 Introduction to Computer Science and CS50's Introduction to Programming with Python.
+Python implementations covering algorithms, data processing, and computational problem-solving. Completed through Harvard's Professional Certificate in Computer Science for Python Programming.
 
 ## Key Projects
 
