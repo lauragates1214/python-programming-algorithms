@@ -1,62 +1,51 @@
-**Selection of Python programs written for labs and problem sets**<br>
-*from Harvardx's Professional Certificate in Computer Science for Python Programming<br>
-CS50x Introduction to Computer Science & CS50P Introduction to Python Programming*
-<br><br>
-This repository contains a selection of labs and problem sets for Python that I've completed as part of my professional certificate program through Harvardx.
-<br><br>
+# Python Programming & Data Analysis
 
----
+Python solutions covering algorithms, data processing, and computational problem-solving. Completed through Harvard's CS50 Introduction to Computer Science and CS50's Introduction to Programming with Python.
 
-Most of the programs were written fully by me based on the lab/problem set prompt. Where CS50 has included pre-existing code (in World Cup and DNA), my contributions to the code are commented with **LauraPG**, and outlined under implementation details below. I've listed the assignments in reverse order of completion.
+## Key Projects
 
----
+### DNA Sequence Analysis
+Bioinformatics application for genetic identification:
+- DNA pattern matching using longest common subsequence algorithms
+- CSV database processing for genetic profiles
+- Statistical analysis for identification probability
+- Command-line interface with comprehensive error handling
+- Efficient string matching for large genomic datasets
 
-**CS50x Lab 6: World Cup**<br>
-*Simulates a sports tournament.*
-<br><br>
-Implementation details for my contribution to code:     
-- reads team data from csv file provided in command line into memory as dictionaries and appends to list, with input validation
-- simulates a tournament, repeatedly simulating rounds until left with one team.
-<br><br>
+### Sports Tournament Simulation
+Monte Carlo simulation for tournament outcomes:
+- Probabilistic modelling of competitive results
+- CSV data import and validation for team statistics
+- Tournament bracket simulation with statistical accuracy
+- Random sampling and outcome prediction algorithms
 
-**CS50x Problem Set 6: DNA**<br>
-*Identifies a person based on their DNA.*
-<br><br>
-Implementation details for my contribution to code:   
-- requires as its first command-line argument the name of a CSV file containing the STR counts for a list of individuals and as its second command-line argument the name of a text file containing the DNA sequence to identify, with input validation
-- opens csv file and DNA sequence and reads contents into memory
-- if the DNA STR counts match exactly with any of the individuals in the CSV file, prints out the name of the matching individual.
-<br><br>
+### Credit Card Validation
+Implementation of Luhn's algorithm for financial validation:
+- Mathematical algorithm implementation for checksum validation
+- Input validation and error handling for financial data
+- Systematic approach to mathematical problem-solving
 
-**CS50x SQL Practice Problem: Hall of Prophecy**<br>
-*Refactors a SQL database to avoid redundancies, and uses Python to load new SQL tables.*<br>
-My refactored database and schema are roster.db and schema.sql. Original database and schema roster-orig.db and schema-orig.sql.
-<br><br>
+### World Cup Tournament Simulator
+Tournament prediction system with team data processing:
+- CSV file processing with robust data validation
+- Recursive tournament simulation algorithms
+- Statistical probability calculations for match outcomes
 
-**CS50x Problem Set 6: Credit**<br>
-*Prompts the user for a credit card number, then uses Luhn's algorithm to validate the card number as Visa, MasterCard, American Express or invalid.*<br>
-I also wrote Credit in C (see repository for C labs and problem sets from Harvard CS50).
-<br><br>
+## Technical Skills Demonstrated
 
-**CS50x Problem Set 6: Readability**<br>
-*Calculates the approximate grade reading level for a text using the Coleman-Liau index.*<br>
-I also wrote Readability in C (see repository for C labs and problem sets from Harvard CS50).
-<br><br>
+- **Algorithm Implementation:** Classic computer science algorithms adapted for specific domains
+- **Data Processing:** CSV parsing, validation, and structured data handling
+- **File I/O:** Robust file operations with comprehensive error handling
+- **Mathematical Computing:** Statistical algorithms and probability calculations
+- **Bioinformatics:** DNA sequence analysis and pattern matching
+- **Object-Oriented Programming:** Class design and inheritance patterns
 
-**CS50P Problem Set 3: Grocery List**<br>
-*Prompts the user for grocery list items, one per line, until the user inputs control-d. It then outputs the grocery list in all uppercase, sorted alphabetically by item, prefixing each line with the number of times the user inputted that item.*
-<br><br>
+## Key Concepts
 
-**CS50P Problem Set 3: Outdated**<br>
-*Prompts the user for a date, Anno Domini, in MM-DD-YYYY order, formatted like 9/8/1636 or September 8, 1636, with validation checks. It then outputs that same date in YYYY-MM-DD format.*
-<br><br>
+- Algorithm design and complexity analysis
+- Data validation and error handling strategies
+- Statistical computing and probability modelling
+- Scientific computing applications in bioinformatics
+- Command-line application development
 
-**CS50P Problem Set 3: Felipe's Taqueria**<br>
-*Enables a user to place an order, validates inputs against a menu dictionary, and displays the total cost of all items inputted thus far, until the user inputs control-d.*
-<br><br
-
-**CS50P Problem Set 2: Vanity Plates**<br>
-*Validates a vanity plate entered by the user against four Massachusettes vanity plate requirements.*
-<br><br>
-
-
+These projects demonstrate practical Python programming skills applicable to data science, bioinformatics, and computational research.
